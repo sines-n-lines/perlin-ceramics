@@ -21,6 +21,7 @@ void draw() {
   //Enlarged Render Panel for High Resolution Renders *INSERT ALL RENDERING IN HERE*
   render.beginDraw();
     //render.background(255);
+      //    EDIT THIS FOR DIFFERENT VIEW POINTS; CITE CAMERA(); FOR INSTRUCTIONS
       render.camera(0,-150,3000,0,0,2500,0,1,0);
     //Shift of form
     render.fill(255,0);
